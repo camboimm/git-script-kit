@@ -22,10 +22,10 @@ GSK is designed with the following principles:
 
 Every script follows a structured design with four core methods:
 
-- `gskConstants` — Loads configurations and internal variables  
-- `gskHelp` — Displays documentation, parameters, and usage examples  
-- `gskValidate` — Performs input validation and pre-condition checks  
-- `gskExec` — Contains the main execution logic  
+- `gskConstants` - Loads configurations and internal variables  
+- `gskHelp` - Displays documentation, parameters, and usage examples  
+- `gskValidate` - Performs input validation and pre-condition checks  
+- `gskExec` - Contains the main execution logic  
 
 The internal project structure is organized into folders based on purpose and audience:
 
@@ -118,7 +118,7 @@ This README exists solely to document the project’s existence, architecture, d
 
 ## 📅 Project Status
 
-**Active — 2011 to Present**  
+**Active - 2011 to Present**  
 Corporate internal tool currently used in production environments.
 
 ---
