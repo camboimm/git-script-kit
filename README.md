@@ -10,7 +10,7 @@
 
 # GSK (Git Script Kit)
 
----
+* * *
 
 ## 📌 Overview
 
@@ -26,7 +26,7 @@ GSK is designed with the following principles:
 - **Workflow standardization**
 - **Clear and extensible architecture**
 
----
+* * *
 
 ## ❓ Why This Project Exists
 
@@ -50,9 +50,9 @@ The framework was built to:
 - Integrate Git processes with Azure DevOps APIs  
 - Support DevOps, SCM and development teams with predictable workflows  
 
-GSK has evolved continuously since 2011 and remains an essential internal tool for efficient and consistent delivery.
+GSK has evolved continuously since 2011 and remains an essential tool for efficient and consistent delivery.
 
----
+* * *
 
 ## 🧩 Script Architecture
 
@@ -72,7 +72,7 @@ The internal project structure is organized into folders based on purpose and au
     scm/
     manager/
 
----
+* * *
 
 ## 🚀 Key Benefits
 
@@ -107,7 +107,7 @@ Native support for **GSK Flow**, a Git workflow model inspired by Git Flow and G
 ### ✔ CI/CD process automation  
 Scripts can be used in Jenkins or Azure DevOps pipelines, reducing manual work and ensuring process consistency.
 
----
+* * *
 
 ## 🔧 Additional Features
 
@@ -116,7 +116,7 @@ Scripts can be used in Jenkins or Azure DevOps pipelines, reducing manual work a
 - Windows context-menu integration  
 - Parameter validation, standardized color scheme, and structured execution logs  
 
----
+* * *
 
 ## ⚠ Restrictions and Best Practices
 
@@ -133,7 +133,7 @@ For safe customization:
 - Define custom aliases  
 - Add external user-defined scripts  
 
----
+* * *
 
 ## 👤 Author
 
@@ -141,7 +141,7 @@ For safe customization:
 **Alex Ferreira de Almeida**  
 Software Engineer / DevOps & SCM Specialist  
 
----
+* * *
 
 ## 📝 Disclaimer
 
@@ -150,12 +150,10 @@ The actual source code of the GSK is private and cannot be published due to inte
 
 This README exists solely to document the project’s existence, architecture, design principles, and authorship.
 
----
+* * *
 
 ## 📅 Project Status
 
 **Active - 2011 to Present**  
 Corporate internal tool currently used in production environments.
-
----
 
