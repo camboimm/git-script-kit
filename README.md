@@ -34,21 +34,21 @@ GSK was created to address real challenges in large-scale development environmen
 
 Before GSK, common issues included:
 
-- branching inconsistencies  
-- dangerous or repetitive manual Git operations  
-- merge conflicts caused by improper workflows  
-- lack of uniformity between Windows, WSL, and Linux users  
-- no integration between Git actions and Azure DevOps  
-- recurring human errors affecting SCM and DevOps processes  
+- Branching inconsistencies  
+- Dangerous or repetitive manual Git operations  
+- Merge conflicts caused by improper workflows  
+- Lack of uniformity between Windows, WSL, and Linux users  
+- No integration between Git actions and Azure DevOps  
+- Recurring human errors affecting SCM and DevOps processes  
 
 The framework was built to:
 
-- enforce a reliable and standardized Git workflow  
-- automate complex or error-prone Git routines  
-- provide safety layers through validation and structured logs  
-- unify tooling across different shells and operating systems  
-- integrate Git processes with Azure DevOps APIs  
-- support DevOps, SCM and development teams with predictable workflows  
+- Enforce a reliable and standardized Git workflow  
+- Automate complex or error-prone Git routines  
+- Provide safety layers through validation and structured logs  
+- Unify tooling across different shells and operating systems  
+- Integrate Git processes with Azure DevOps APIs  
+- Support DevOps, SCM and development teams with predictable workflows  
 
 GSK has evolved continuously since 2011 and remains an essential internal tool for efficient and consistent delivery.
 
