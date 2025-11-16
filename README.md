@@ -1,3 +1,40 @@
+# GSK (Git Script Kit)
+
+---
+
+## 📌 Overview
+
+The **GSK (Git Script Kit)** is a corporate framework for Git and DevOps automation.  
+Developed entirely in Shell Script, GSK standardizes branching workflows (GSK Flow), encapsulates complex Git operations (submodules, LFS, merge, rebase, etc.), implements robust validations, structured logging, Azure DevOps REST API integration, and provides support for CI/CD pipelines.  
+The framework reduces operational errors, simplifies daily routines, and increases efficiency for development and operations teams.
+
+GSK is designed with the following principles:
+
+- **Single Responsibility Principle (SRP)**
+- **Modularity**
+- **Function reuse**
+- **Workflow standardization**
+- **Clear and extensible architecture**
+
+---
+
+## 🧩 Script Architecture
+
+Every script follows a structured design with four core methods:
+
+- `gskConstants` — Loads configurations and internal variables  
+- `gskHelp` — Displays documentation, parameters, and usage examples  
+- `gskValidate` — Performs input validation and pre-condition checks  
+- `gskExec` — Contains the main execution logic  
+
+The internal project structure is organized into folders based on purpose and audience:
+
+    dev/
+    functions/
+    system/
+    deprecated/
+    scm/
+    manager/
 
 ---
 
