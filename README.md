@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/gsk-logo.svg" width="300">
+  <img src="images/gsk-logo.svg" width="400">
 </p>
 
 <p align="center">
@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/source-private-lightgrey">
 </p>
 
-<p align="rigth">
+<p align="right">
   <img src="https://img.shields.io/badge/Made%20by-Alex%20Almeida-58a6ff?style=for-the-badge&labelColor=0d1117&logoColor=58a6ff">
 </p>
 
