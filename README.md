@@ -54,6 +54,21 @@ GSK has evolved continuously since 2011 and remains an essential tool for effici
 
 * * *
 
+## 🔑 Key Features
+
+- Unified CLI for Git automation  
+- Standardized branching workflow (**GSK Flow**)  
+- Automation of complex Git tasks (merge, rebase, LFS, submodules)  
+- Azure DevOps REST API integration  
+- Cross-shell compatibility (**Bash** and **Zsh**)  
+- Multi-platform support (**Windows**, **WSL**, **Linux**)  
+- Modular architecture with reusable internal functions  
+- Built-in help system with parameter validation  
+- Structured logging for troubleshooting and auditing  
+- CI/CD integration for Jenkins and Azure DevOps pipelines 
+
+* * *
+
 ## 🧩 Script Architecture
 
 Every script follows a structured design with four core methods:
